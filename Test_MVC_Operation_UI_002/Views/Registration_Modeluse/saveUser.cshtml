@@ -1,0 +1,53 @@
+﻿@model Test_MVC_Operation_UI_002.Models.InformaionModel
+@{
+    ViewBag.Title = "saveUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    @using (Html.BeginForm("", "", FormMethod.Post, new { @id = "add_student_details_form", @class = "pt-4" }))
+    {
+        <div class="form-group">
+            <label>NAME</label>
+            @Html.EditorFor(model => model.NAME, new { htmlAttributes = new { @id = "txt_nm", @autocomplete = "off", @maxlength = 50, @class = "form-control sentenceCapital" } })
+
+        </div>
+        <div class="form-group">
+            <label>ADDRESS</label>
+            @Html.EditorFor(model => model.NAME, new { htmlAttributes = new { @id = "txt_addr", @autocomplete = "off", @maxlength = 50, @class = "form-control sentenceCapital" } })
+
+        </div>
+        <div class="form-group">
+            <label>EMAIL ID</label>
+            @Html.EditorFor(model => model.NAME, new { htmlAttributes = new { @id = "txt_email", @autocomplete = "off", @maxlength = 50, @class = "form-control sentenceCapital" } })
+
+        </div>
+        <div class="form-group">
+            <label>PHONE NUMBER</label>
+            @Html.EditorFor(model => model.NAME, new { htmlAttributes = new { @id = "txt_ph", @autocomplete = "off", @maxlength = 50, @class = "form-control sentenceCapital" } })
+
+        </div>
+        <div class="form-group">
+            <label>CHOOSE CITY</label>
+            @Html.DropDownListFor(model => model.CITY, Model.CityList, new { htmlAttributes = new { @id = "ddl_ct", @class = "form-control" } })
+
+
+        </div>
+        <div class="form-group">
+            <input type="radio" name="gender" value="M" />M
+            <input type="radio" name="gender" value="F" />F
+        </div>
+    }
+    <div class="form-group">
+        <button type="button" class="btn btn-success" id="btn_submit">SUBMIT</button>
+    </div>
+
+    <div id="Get_aaplication_response" class="table table-striped"></div>
+    <div class="form-inline">
+        <input type="text" class="form-control" id="mailid" />
+        <button type="button" id="btn_search" class="btn btn-danger">Search</button>
+    </div>
+    <div id="Get_aaplication_search" class="table table-striped"></div>
+
+</div>
+

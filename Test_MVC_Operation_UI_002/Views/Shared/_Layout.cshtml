@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+@{Html.RenderPartial("_Header"); }
+<body>
+    @{Html.RenderPartial("_Navbar"); }
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+    @{ Html.RenderPartial("_Script");}
+
+</body>
+</html>

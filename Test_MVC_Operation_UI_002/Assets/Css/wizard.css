@@ -1,0 +1,227 @@
+﻿.container .main {
+  height: 50%;
+}
+.bt_n{
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    /* border: 1px solid transparent; */
+    padding: 0.56rem 1.375rem;
+}
+.container .main .progress {
+ margin: 20px 60px;
+    height: 10px;
+    background-color: #97b8d1;
+    width: 85%;
+    border-radius: 10px;
+}
+.container .main .progress .progress-bar {
+  height: 15px;
+  color: #eeeeee;
+}
+.label7 {
+    color: #07c;
+    font-size: 12px;
+}
+.container .main .progreso1 {
+  transition-delay: 4s;
+  transition: all 0.45s ease-in-out;
+  width: 30%;
+  animation: 0.5s;
+  background-color: #66ccff;
+}
+@media (max-width: 768px) {
+  .container .main .progreso1 {
+    width: 34%;
+  }
+}
+.container .main .progreso2 {
+  width: 63%;
+  animation: 0.5s;
+  background-color: #66ccff;
+  transition: all 0.45s ease;
+}
+@media (max-width: 768px) {
+  .container .main .progreso2 {
+    width: 73%;
+  }
+}
+.container .main .progreso3 {
+  width: 100%;
+  animation: 0.5s;
+  background-color: #66ccff;
+  transition: all 0.45s ease;
+}
+.container .main .block1 {
+  position: absolute;
+  margin: 0 5%;
+  border-radius: 50%;
+  background-color:#ff5719;
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  padding: 4px;
+  /*margin-top: 90px;*/
+}
+.container .main .block2 {
+  position: absolute;
+  margin: 0 30%;
+    border-radius: 50%;
+    background-color: #97b8d1;
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  padding: 4px;
+  /*margin-top: 90px;*/
+}
+@media (max-width: 768px) {
+  .container .main .block2 {
+    margin: 0 31.5%;
+    margin-top: 90px;
+  }
+}
+.container .main .block3 {
+  position: absolute;
+ margin: 0 59%;
+    border-radius: 50%;
+    background-color:#97b8d1;
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  padding: 4px;
+  /*margin-top: 90px;*/
+}
+@media (max-width: 768px) {
+  .container .main .block3 {
+    margin: 0 62.5%;
+    margin-top: 90px;
+  }
+}
+.container .main .block4 {
+  position: absolute;
+  margin: 0 85%;
+    border-radius: 50%;
+    background-color:#97b8d1;
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  padding: 4px;
+  /*margin-top: 90px;*/
+}
+@media (max-width: 570px) {
+  .container .main .block4 {
+    margin: 0 86.5% !important;
+    margin-top: 90px !important;
+  }
+}
+@media (max-width: 768px) {
+  .container .main .block4 {
+    margin: 0 90.5%;
+    margin-top: 90px;
+  }
+}
+.container .main .circulo {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: #eeeeee;
+  top: 0px;
+  margin: 6px;
+}
+.container .main .fa-check {
+  font-size: 14px;
+  color: #eeeeee;
+  padding: 4px;
+}
+.container .main .activeblock2 {
+  position: absolute;
+  margin: 0 30%;
+  border-radius: 50%;
+  background-color:#ff5719 !important;
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  padding: 4px;
+  /*margin-top: 90px;*/
+}
+.container .main .activeblock3 {
+ position: absolute;
+    margin: 0 59%;
+    border-radius: 50%;
+    background-color: #f26330;
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    padding: 4px;
+  /*margin-top: 90px;*/
+}
+.container .main .activeblock4 {
+  position: absolute;
+  margin: 0 85%;
+    border-radius: 50%;
+    background-color: #f26330;
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  padding: 4px;
+  /*margin-top: 90px;*/
+}
+@media (max-width: 768px) {
+  .container .main .activeblock4 {
+    margin: 0 90.7%;
+    margin-top: 90px;
+  }
+}
+@media (min-width: 510px) and (max-width: 600px) {
+  .container .main .activeblock4 {
+    margin: 0 89.5%;
+    margin-top: 90px;
+  }
+}
+@media (min-width: 368px) and (max-width: 509px) {
+  .container .main .activeblock4 {
+    margin: 0 86%;
+    margin-top: 90px;
+  }
+}
+@media (min-width: 200px) and (max-width: 367px) {
+  .container .main .activeblock4 {
+    margin: 0 86%;
+    margin-top: 90px;
+  }
+}
+.container .main .activecirculo {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color:#0077cc;
+  border: solid 4px #fff;
+  margin: 6px;
+}
+
+/**
+This is just to test, but you don't need it.
+*/
+/*.next {
+  margin-top: 50px;
+}*/
+ .next2,.next3,.next4 {
+  display: none;
+}
+ .btn_warning {
+    background: #ffaf00;
+    color: #fff;
+    padding: 7px 7px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+ .btn_warning:hover{color:#fff;
+                    background:#cc8c00;
+                    text-decoration:none;
+ }
+ .btn_warning:active{border:1px solid #cc8c00;}
+
+ .wijad_container_mainDiv{background: #fff;
+    border-radius: 15px;
+ }

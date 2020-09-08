@@ -1,0 +1,162 @@
+﻿/********* css for progess bar  ********************/
+ .lnkCss
+ {
+     font-family:Arial;
+     font-size:13px;
+     color: #fb6b5b; 
+     font-weight:normal;
+     text-decoration:none;
+     
+ }
+ 
+.circle{
+	width:45px;
+	height:45px;
+	float:left;
+	margin:0 0 0 50px;
+	background:#fb6b5b;
+	border-radius:60px;
+}
+.circle2{
+	width:45px;
+	height:45px;
+	float:left;
+	background:#eaeaea;
+	border-radius:60px;
+}
+
+.rectangle{
+	width:150px;
+	height:6px;
+	float:left;
+	margin:20px 0 0 -2px;
+	background:#fb6b5b;	
+}
+.rectangle2{
+	width:150px;
+	height:6px;
+	float:left;
+	margin:20px 0 0 0;
+	background:#eaeaea;	
+}
+
+
+.text_det{
+	width:730px;
+	height:auto;
+	float:left;
+	margin:10px 0 0 0;	
+	
+}
+.text_caption{
+	width:205px;
+	height:auto;
+	float:left;
+	margin:0 0 0 0;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+}
+.text_caption2
+{
+    width:225px;
+	height:auto;
+	float:left;
+	margin:0 0 0 0;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+}.text_caption3{
+	width:200px;
+	height:auto;
+	float:left;
+	margin:0 0 0 0;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	
+}
+.text_caption4{
+	width:205px;
+	height:auto;
+	float:left;
+	margin:4px 0 0 0;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;
+	color:#666666;
+}
+.text_caption5{
+	width:225px;
+	height:auto;
+	float:left;
+	margin:4px 0 0 0;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;
+	color:#666666;
+}.text_caption6{
+	width:200px;
+	height:auto;
+	float:left;
+	margin:4px 0 0 0;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;	
+	color:#666666;
+}
+.text_caption7{
+	width:90px;
+	height:auto;
+	float:left;
+	margin:0 0 0 0px;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	
+}
+.text_caption8{
+	width:90px;
+	height:auto;
+	float:left;
+	margin:0 0 0 0px;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;	
+	color:#666666;
+}
+
+
+.all_box_area
+{
+    float:left;
+    margin:0 0 0 -50px;
+}
+
+.all_box_area_two
+{
+    float:left;
+    margin:70px 0 20px -325px;
+}
+.all_box_area_three
+{
+    float:left;
+    margin:70px 0 0 -200px;
+}
+
+.all_box_area_fr
+{
+    float:left;
+    margin:70px 0 0 -170px;
+}
+
+.all_box_area_fi
+{
+    float:left;
+    margin:70px 0 0 -180px;
+}
+
+.txtFarmer1
+{
+    float:left;
+}

@@ -1,0 +1,23 @@
+﻿<div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        <a href="@Url.Action("register", "User_Registration")">Information</a>
+
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Home", "registrationpage_view", "Registration_model")</li>
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            <li>@Html.ActionLink("INSERT", "person_registration", "Registration_Modeluse")</li>
+            <li><a href="@Url.Action("person_Id_search", "INFORMATION")">ID Search</a></li>
+
+        </ul>
+
+    </div>
+</div>
