@@ -14,6 +14,8 @@ using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Web.Script.Serialization;
+using Newtonsoft.Json.Linq;
 
 namespace Test_MVC_Operation_UI_002.Models
 {
@@ -58,11 +60,14 @@ namespace Test_MVC_Operation_UI_002.Models
         public string Get_Table_Show_search(string _postContent)
         {
             var client1 = new RestSharp.RestClient(Constant.GET_PERSON_SEARCH);
-            var request1 = new RestRequest(Method.GET);
+            var request1 = new RestRequest(Method.POST);
             ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
             request1.RequestFormat = DataFormat.Json;
+            //JObject jObjectbody = new JObject();
+            //jObjectbody.Add("EMAIL_ID", _postContent);
+            //string inputJsonList = "[" + jObjectbody + "]";
             request1.AddHeader("Content-Type", "application/json");
-            request1.AddParameter("application/json", _postContent, ParameterType.HttpHeader);
+            request1.AddParameter("application/json", _postContent, ParameterType.RequestBody);
             request1.AddHeader("Content-Type", "application/json");
             IRestResponse response = client1.Execute(request1);
             string responsedata = response.Content.ToString();
